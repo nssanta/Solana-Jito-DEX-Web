@@ -216,32 +216,6 @@ Stop active price monitoring worker
 
 ---
 
-## 🛡️ Security
-
-⚠️ **Important Security Practices:**
-
-1. **Never commit private keys** - Use environment variables
-2. **Rotate keys regularly** - Especially after testing
-3. **Use hardware wallets** - For production deployments
-4. **Validate inputs** - All user inputs are sanitized
-5. **HTTPS only** - Always use secure connections
-
-All sensitive data is loaded from `.env` files which are **gitignored**.
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit changes (`git commit -m 'Add amazing feature'`)
-4. Push to branch (`git push origin feature/amazing-feature`)
-5. Open Pull Request
-
----
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -255,14 +229,6 @@ This software is provided "as is" for educational purposes. Use at your own risk
 - **Not financial advice** - Do your own research
 - **Testnet first** - Test thoroughly before mainnet
 - **Risk awareness** - DeFi involves financial risk
-
----
-
-## 🙏 Acknowledgments
-
-- **Solana Foundation** - For the amazing blockchain
-- **Raydium** - For DEX liquidity pools
-- **Jito Labs** - For MEV protection infrastructure
 
 ---
 
